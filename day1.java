@@ -11,11 +11,11 @@ public class day1 {
         double d = 4.0;
         String s = "HackerRank ";
 		
-        Scanner scan = new Scanner(System.in);
-        int x = scan.nextInt();
-         double y = scan.nextDouble();
-         String f = scan.nextLine();
-         String z = scan.nextLine();
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+         double y = sc.nextDouble();
+         String f = sc.nextLine();
+         String z = sc.nextLine();
         // Note: If you have trouble reading the entire String, please go back and review the Tutorial closely.
         
         /* Print the sum of both integer variables on a new line. */
@@ -28,6 +28,6 @@ public class day1 {
         	the 's' variable above should be printed first. */
           s = s.concat(z);
           System.out.println("" +s);
-          scan.close();
+          sc.close();
     }
 }
